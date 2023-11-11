@@ -1,0 +1,60 @@
+.connexion{
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.inscription{
+    background-color: white;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid blue;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 18px 20px;
+    margin: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.inscription:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(0.7) rotate(-10deg);
+
+}
+
+.connexion:hover{
+    background-color:red;
+    color: black;
+    border: solid 1px;
+    transform: scale(0.7) rotate(-10deg);
+}
+
+.cercle{
+
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s, all 2s;
+}
+
+.cercle:hover{
+    transform: rotate(360deg);
+    background-color: palevioletred;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Poppins';
+}
